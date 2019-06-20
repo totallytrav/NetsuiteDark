@@ -4,6 +4,7 @@
 @version        1.0.0
 @description    Custom Tierney Netsuite theme
 @author         Travis Olson
+@updateURL      https://raw.githubusercontent.com/totallytrav/NetsuiteDark/master/NetsuiteDark.user.css
 ==/UserStyle== */
 @-moz-document url-prefix("https://3393086.app.netsuite.com") {
     #body,
