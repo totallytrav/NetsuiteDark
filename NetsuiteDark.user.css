@@ -223,11 +223,11 @@
         color: #ffffff;
     }
     .uir-page-title .uir-record-type {
-        color: #87aadc;
+        color: #a1c8ff;
         margin-right: 5px;
     }
     .uir-page-title .uir-list-name {
-        color: #87aadc;
+        color: #a1c8ff;
     }
     .bg {
         background-color: #000;
@@ -240,10 +240,10 @@
         color: white;
     }
     .pt_container .pt_body .pt_title {
-        color: #87aadc;
+        color: #a1c8ff;
     }
     .dleheadertext {
-        color: #87aadc;
+        color: #a1c8ff;
     }
     .uir_assistant_importfieldmapper_title {
         color: #ffffff;
@@ -290,7 +290,7 @@
     }
     #td_rghtpane_title,
     #td_rghtpane_title * {
-        color: #87aadc;
+        color: #a1c8ff;
     }
     html,
     body {
@@ -328,7 +328,7 @@
     }
     #ns_header a,
     #ns_navigation .ns-menuitem > a {
-        color: #87aadc!important;
+        color: #a1c8ff!important;
     }
     .field_widget_pos uir-field-widget {
         background-color: #ffffff00;
@@ -426,15 +426,15 @@
         color: white;
     }
     .ns-portlet-wrapper .ns-portlet-content > :not(.ns-dashboard-form) a {
-        color: #87aadc!important;
+        color: #a1c8ff!important;
     }
     .ns-portlet-wrapper .ns-portlet-content .ns-dashboard-action:hover,
     .ns-portlet-wrapper .ns-portlet-content .ns-portlet-action:hover {
-        color: #87aadc!important;
+        color: #a1c8ff!important;
     }
     .ns-portlet-wrapper .ns-portlet-content .ns-dashboard-action,
     .ns-portlet-wrapper .ns-portlet-content .ns-portlet-action {
-        color: #87aadc!important;
+        color: #a1c8ff!important;
     }
     .ns-message-component {
         color: white;
@@ -506,7 +506,7 @@
         color: white!important;
     }
     .pgm_action_menu {
-        color: #87aadc;
+        color: #a1c8ff;
     }
     .uir-machine-row-even > td,
     .uir-list-row-even > td {
@@ -564,7 +564,7 @@
         border: 1px solid #ffffff;
     }
     ul#uir-global-search-container > li.uir-global-search-dashboard-item a.uir-item-view {
-        color: #87aadc!important;
+        color: #a1c8ff!important;
         background: inherit;
     }
     ul#uir-global-search-container > li {
@@ -572,7 +572,7 @@
     }
     ul#uir-global-search-container > li.uir-global-search-item a.uir-item-view {
         background: inherit;
-        color: #87aadc!important;
+        color: #a1c8ff!important;
     }
     ul#uir-global-search-container > li.ns-active {
         background: white;
@@ -585,7 +585,7 @@
     }
     ul#uir-global-search-container > li > a.uir-global-search-more {
         background: inherit;
-        color: #87aadc!important;
+        color: #a1c8ff!important;
     }
     ul#uir-global-search-container > li.ns-active a + a {
         background: inherit;
