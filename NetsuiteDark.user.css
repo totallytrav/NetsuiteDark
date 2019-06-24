@@ -978,4 +978,12 @@
         color: #006AFF;
         font-weight: 600 !important;
     }
+	A.H {
+    text-decoration: none;
+    color: white;
+	}
+	.rptrowhighlight {
+    background-color: #565656;
+	}
+
 }
