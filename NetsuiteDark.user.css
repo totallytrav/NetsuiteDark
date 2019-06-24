@@ -985,5 +985,8 @@
 	.rptrowhighlight {
     background-color: #565656;
 	}
+	.rptdataareawaiting {
+    background-color: #000;
+	}
 
 }
