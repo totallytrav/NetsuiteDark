@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Netsuite Dark Theme - Tierney
 @namespace      github.com/openstyles/stylus
-@version        1.0.1
+@version        1.0.2
 @description    Custom Tierney Netsuite theme
 @author         Travis Olson
 @updateURL      https://raw.githubusercontent.com/totallytrav/NetsuiteDark/master/NetsuiteDark.user.css
@@ -987,6 +987,13 @@
 	}
 	.rptdataareawaiting {
     background-color: #000;
+	}
+	.rptoptiondialoginner {
+    border-top: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-bottom: 1px solid #c6c3c6;
+    border-right: 1px solid #c6c3c6;
+    background-color: #000000;
 	}
 
 }
