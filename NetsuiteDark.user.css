@@ -146,7 +146,7 @@
     }
     div.uir-field-wrapper span.uir-field:not(.uir-user-styled) * {
         color: #fff !important;
-        /* background-color: #000; */
+        background-color: #000;
     }
     .ns-portlet-wrapper[data-portlet-type="calendar"] .ns-title-primary {
         color: white;
@@ -261,9 +261,6 @@
     .dropdownDiv:disabled,
     .dropdownInput:disabled {
         background-color: #565656!important;
-    }
-    div.uir-field-wrapper span.uir-field:not(.uir-user-styled) * {
-        color: #fff;
     }
     .textareainput,
     .inputreq.textarea {
@@ -996,5 +993,22 @@
     border-right: 1px solid #c6c3c6;
     background-color: #000000;
 	}
-
+	#div__nav_tree {
+	background-color: #000!important
+	}
+	#div__medialisthdr > table.uir-rightpaneentryform-heading {
+    display: table !important;
+    padding: 2px 0 2px 20px !important;
+    font-size: 20px;
+    background: black !important;
+    border-bottom: 1px solid #DDDDDD !important;
+    border-right: none !important;
+	}
+	#div__psps_0 {
+	background-color: #000!important
+	}
+	
+	
+	
+	
 }
