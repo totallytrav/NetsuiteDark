@@ -146,7 +146,7 @@
     }
     div.uir-field-wrapper span.uir-field:not(.uir-user-styled) * {
         color: #fff !important;
-        background-color: #000;
+        /*background-color: #000;*/
     }
     .ns-portlet-wrapper[data-portlet-type="calendar"] .ns-title-primary {
         color: white;
