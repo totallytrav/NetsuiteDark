@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Netsuite Dark Theme - Tierney
 @namespace      totallytrav
-@version        1.0.7
+@version        1.0.8
 @description    Custom Tierney Netsuite theme
 @author         Travis Olson
 @homepageURL	https://github.com/totallytrav/NetsuiteDark
@@ -147,16 +147,20 @@
     div.uir-field-wrapper span.uir-field:not(.uir-user-styled) * {
         color: #fff;
     }
+	/*Changes text box background and text colors. This is found on email page */
     .cke_editable {
     color: #000!important;
     background-color: #fff!important;
     }
+	/*Changes toolbar button background colors. This is found on email page*/
     .cke_toolbar {
         background-color: #000000f5!important;
     }
+	/*Changes toolbar button background colors. This is found on email page*/
     .cke_inner {
         background: #000;
     }
+	/*Filters for toolbar buttons to make them readable on dark background. This is found on email page*/
     .cke_button_icon {
     filter: brightness(60%) invert(1) contrast(200%) hue-rotate(180deg)
     }
@@ -229,8 +233,10 @@
     div.uir-listpage-body {
         background-color: #000!important;
     }
+	/*Arrow buttons on the top right of the screen*/
     .uir-page-title .ns-menuitem img {
         padding: 0 5px;
+		filter: invert(1) hue-rotate(180deg);
     }
     .uir-page-title .uir-record-name {
         color: #ffffff;
@@ -550,7 +556,7 @@
         border-radius: 20px;
     }
     .page-title-menu > .ns-menu > .ns-menuitem.ns-active > a {
-        background-color: #000000 !important;
+        background-color: #afafaf !important;
         color: white!important;
     }
     .smallgraytext {
@@ -1023,7 +1029,33 @@
 	.dropdownSelected a {
     color: white;
     background-color: #676767!important;
-}
-	
-	
+	}
+	/*Removes shadow on email page drop-down button text*/
+	.cke_combo_text {
+    text-shadow: 0 1px 0 rgba(255,255,255,0);
+	}
+	/*New button image next to help on top toolbar*/
+	#ns-header-quick-menu .ns-icon {
+    filter: invert(1) hue-rotate(180deg);
+	}
+	/*Help icon on top toolbar*/
+	#ns_header .ns-help .ns-icon {
+	filter: invert(1) hue-rotate(180deg);
+	}
+	/*Feedback icon on top toolbar*/
+	#ns_header .ns-header-feedback .ns-icon {
+	filter: invert(1) hue-rotate(180deg);
+	}
+	/*Print button*/
+	.button-print {
+	filter: invert(1) hue-rotate(180deg);
+	}
+	/*New button*/
+	.button-new {
+	filter: invert(1) hue-rotate(180deg);
+	}
+	/*Change color of text in light background billing addres when editing sales order*/
+	#billaddress {
+        color:black!important;
+    }
 }
