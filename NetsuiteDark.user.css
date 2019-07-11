@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Netsuite Dark Theme - Tierney
 @namespace      totallytrav
-@version        1.0.8
+@version        1.0.10
 @description    Custom Tierney Netsuite theme
 @author         Travis Olson
 @homepageURL	https://github.com/totallytrav/NetsuiteDark
@@ -290,9 +290,6 @@
     .textnolink {
         color: white;
     }
-    /* .rptdata > A.H {
-         color: white;   
-        } */
     td.rptdata {
         color: white!important;
     }
@@ -583,15 +580,17 @@
         color: #a1c8ff!important;
         background: inherit;
     }
+	/*Global search results non-highlighted option color*/
     ul#uir-global-search-container > li {
-        background: #292929;
+        background: #000;
     }
     ul#uir-global-search-container > li.uir-global-search-item a.uir-item-view {
         background: inherit;
         color: #a1c8ff!important;
     }
+	/*Global search results highlighted option color*/
     ul#uir-global-search-container > li.ns-active {
-        background: white;
+        background: #565656;
     }
     ul#uir-global-search-container a.uir-item-view:hover {
         background: inherit;
@@ -696,9 +695,6 @@
     }
     #ns-dashboard-heading-panel h1 {
         color: #70839e;
-    }
-    ul#uir-global-search-container > li.ns-active {
-        background: #000000;
     }
     #inner_popup_div a {
         color: white;
@@ -1058,4 +1054,12 @@
 	#billaddress {
         color:black!important;
     }
+	/*Portlet settings drop down box background*/
+	.ns-quick-date-tooltip {
+	background-color: #000000;
+	}
+	/*In case anyone uses rolled view on transaction pages*/
+	.unrollformsubtabheaderexpand a, .unrollformsubtabheadercollapse a {
+    color: #ffffff !important;
+	}
 }
