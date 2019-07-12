@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Netsuite Dark Theme - Tierney
 @namespace      totallytrav
-@version        1.0.11
+@version        1.0.12
 @description    Custom Tierney Netsuite theme
 @author         Travis Olson
 @homepageURL	https://github.com/totallytrav/NetsuiteDark
@@ -505,7 +505,7 @@
     }
     .uir-list-row-even > td {
         background-color: #565656!important;
-        color: white!important;
+        color: white;
     }
     tr.uir-list-row-tr:hover td,
     tr.uir-list-row-tr.uir-active td {
@@ -1069,5 +1069,9 @@
 	/*Generic text color - appears on phone list page numbers*/
 	.medtext {
     filter: invert(1);
+	}
+	/*Fix table text colors*/
+	.uir-list-row-tr > td, .uir-machine-row > td, .uir-machine-totals-row > td {
+    color: #FFF;
 	}
 }
