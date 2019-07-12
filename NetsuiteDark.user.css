@@ -516,7 +516,7 @@
     .uir-machine-row-odd > td,
     .uir-list-row-odd > td {
         background-color: #636363!important;
-        color: white!important;
+        color: white;
     }
     .pgm_action_menu {
         color: #a1c8ff;
@@ -524,7 +524,7 @@
     .uir-machine-row-even > td,
     .uir-list-row-even > td {
         background-color: #3a3a3a!important;
-        color: white!important;
+        color: white;
     }
     .uir-machine-row:not(.uir-machine-row-focused):hover > td {
         background-color: #868686!important;
@@ -1061,5 +1061,13 @@
 	/*In case anyone uses rolled view on transaction pages*/
 	.unrollformsubtabheaderexpand a, .unrollformsubtabheadercollapse a {
     color: #ffffff !important;
+	}
+	/*Generic text color - appears on phone list page numbers*/
+	.medtextbold {
+    color: #FFF;
+	}
+	/*Generic text color - appears on phone list page numbers*/
+	.medtext {
+    filter: invert(1);
 	}
 }
