@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Netsuite Dark Theme - Tierney
 @namespace      totallytrav
-@version        1.0.13
+@version        1.0.14
 @description    Custom Tierney Netsuite theme
 @author         Travis Olson
 @homepageURL	https://github.com/totallytrav/NetsuiteDark
@@ -505,7 +505,7 @@
     }
     .uir-list-row-even > td {
         background-color: #565656!important;
-        color: white;
+        color: white!important;
     }
     tr.uir-list-row-tr:hover td,
     tr.uir-list-row-tr.uir-active td {
@@ -516,7 +516,7 @@
     .uir-machine-row-odd > td,
     .uir-list-row-odd > td {
         background-color: #636363!important;
-        color: white;
+        color: white!important;
     }
     .pgm_action_menu {
         color: #a1c8ff;
@@ -524,7 +524,7 @@
     .uir-machine-row-even > td,
     .uir-list-row-even > td {
         background-color: #3a3a3a!important;
-        color: white;
+        color: white!important;
     }
     .uir-machine-row:not(.uir-machine-row-focused):hover > td {
         background-color: #868686!important;
@@ -1072,9 +1072,9 @@
 	}
 	/*Fix table text colors*/
 	.uir-list-row-tr > td, .uir-machine-row > td, .uir-machine-totals-row > td {
-    color: #FFF;
+    color: #FFF!important;
 	}
 	.uir-list-row-tr > td {
-	color: #FFF;
+	color: #FFF!important;
 	}
 }
