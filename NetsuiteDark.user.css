@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Netsuite Dark Theme - Tierney
 @namespace      totallytrav
-@version        1.0.14
+@version        1.0.15
 @description    Custom Tierney Netsuite theme
 @author         Travis Olson
 @homepageURL	https://github.com/totallytrav/NetsuiteDark
@@ -515,7 +515,7 @@
 
     .uir-machine-row-odd > td,
     .uir-list-row-odd > td {
-        background-color: #636363!important;
+        background-color: #3c3c3c!important;
         color: white!important;
     }
     .pgm_action_menu {
@@ -523,7 +523,7 @@
     }
     .uir-machine-row-even > td,
     .uir-list-row-even > td {
-        background-color: #3a3a3a!important;
+        background-color: #171717!important;
         color: white!important;
     }
     .uir-machine-row:not(.uir-machine-row-focused):hover > td {
