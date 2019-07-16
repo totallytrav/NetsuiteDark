@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Netsuite Dark Theme - Tierney
 @namespace      totallytrav
-@version        1.0.16
+@version        1.0.17
 @description    Custom Tierney Netsuite theme
 @author         Travis Olson
 @homepageURL	https://github.com/totallytrav/NetsuiteDark
@@ -1081,4 +1081,8 @@
     a:-webkit-any-link {
     color: #fff;
     }
+	/*Emails viewed in NS keep their dark text. This should overwrite that*/
+	html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, p, blockquote, th {
+    color: #FFF!important;
+}
 }
