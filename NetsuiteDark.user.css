@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Netsuite Dark Theme - Tierney
 @namespace      totallytrav
-@version        1.0.17
+@version        1.0.18
 @description    Custom Tierney Netsuite theme
 @author         Travis Olson
 @homepageURL	https://github.com/totallytrav/NetsuiteDark
@@ -1084,5 +1084,27 @@
 	/*Emails viewed in NS keep their dark text. This should overwrite that*/
 	html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, p, blockquote, th {
     color: #FFF!important;
-}
+	}
+	/*Calendar popup when editing transactions*/
+	.uir-popup-cal-header-row > td {
+    color: #ffffff;
+	}
+	.uir-popup-cal {
+    background-color: #000000;
+	}
+	#calendar {
+    background-color: #696969
+    }
+	.uir-popup-cal-nav {
+    background: #171717;
+	}
+	.uir-popup-cal-nav-title {
+    color: #ffffff !important;
+	}
+	.uir-popup-cal-nav > .iArrowLeft {
+    filter: brightness(500%);
+	}
+	.uir-popup-cal-nav > .iArrowRight {
+    filter: brightness(500%);
+	}
 }
