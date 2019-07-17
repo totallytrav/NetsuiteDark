@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Netsuite Dark Theme - Tierney
 @namespace      totallytrav
-@version        1.0.18
+@version        1.0.19
 @description    Custom Tierney Netsuite theme
 @author         Travis Olson
 @homepageURL	https://github.com/totallytrav/NetsuiteDark
@@ -1106,5 +1106,9 @@
 	}
 	.uir-popup-cal-nav > .iArrowRight {
     filter: brightness(500%);
+	}
+	/*Color for "today" in calendar*/
+	td.uir-popup-cal-cell a.uir-popup-cal-cell-text b {
+    color: #5dd8ff;
 	}
 }
