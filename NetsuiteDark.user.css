@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Netsuite Dark Theme - Tierney
 @namespace      totallytrav
-@version        1.0.19
+@version        1.0.20
 @description    Custom Tierney Netsuite theme
 @author         Travis Olson
 @homepageURL	https://github.com/totallytrav/NetsuiteDark
@@ -1111,4 +1111,8 @@
 	td.uir-popup-cal-cell a.uir-popup-cal-cell-text b {
     color: #5dd8ff;
 	}
+	/*Puts background on some emails when viewing in Netsuite so text is legible*/
+	.WordSection1{
+    background-color: #a4a4a4;
+    }
 }
