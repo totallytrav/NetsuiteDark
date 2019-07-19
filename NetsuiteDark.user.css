@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Netsuite Dark Theme - Tierney
 @namespace      totallytrav
-@version        1.0.20
+@version        1.0.021
 @description    Custom Tierney Netsuite theme
 @author         Travis Olson
 @homepageURL	https://github.com/totallytrav/NetsuiteDark
@@ -1068,7 +1068,7 @@
 	}
 	/*Generic text color - appears on phone list page numbers*/
 	.medtext {
-    filter: invert(1);
+    color: #FFF;
 	}
 	/*Fix table text colors*/
 	.uir-list-row-tr > td, .uir-machine-row > td, .uir-machine-totals-row > td {
