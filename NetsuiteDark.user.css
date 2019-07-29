@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Netsuite Dark Theme - Tierney
 @namespace      totallytrav
-@version        1.0.22
+@version        1.0.23
 @description    Custom Tierney Netsuite theme
 @author         Travis Olson
 @homepageURL	https://github.com/totallytrav/NetsuiteDark
@@ -147,20 +147,20 @@
 	div.uir-field-wrapper span.uir-field:not(.uir-user-styled) * {
 		color: #fff;
 	}
-	/*Changes text box background and text colors. This is found on email page */
+/*Changes text box background and text colors. This is found on email page */
 	.cke_editable {
 		color: #000!important;
 		background-color: #fff!important;
 	}
-	/*Changes toolbar button background colors. This is found on email page*/
+/*Changes toolbar button background colors. This is found on email page*/
 	.cke_toolbar {
 		background-color: #000000f5!important;
 	}
-	/*Changes toolbar button background colors. This is found on email page*/
+/*Changes toolbar button background colors. This is found on email page*/
 	.cke_inner {
 		background: #000;
 	}
-	/*Filters for toolbar buttons to make them readable on dark background. This is found on email page*/
+/*Filters for toolbar buttons to make them readable on dark background. This is found on email page*/
 	.cke_button_icon {
 		filter: brightness(60%) invert(1) contrast(200%) hue-rotate(180deg)
 	}
@@ -233,7 +233,7 @@
 	div.uir-listpage-body {
 		background-color: #000!important;
 	}
-	/*Arrow buttons on the top right of the screen*/
+/*Arrow buttons on the top right of the screen*/
 	.uir-page-title .ns-menuitem img {
 		padding: 0 5px;
 		filter: invert(1) hue-rotate(180deg);
@@ -437,7 +437,7 @@
 	}
 	.dropdownDiv .dropdownNotSelected {
 		color: white;
-		background-color: #000000;
+		background-color: #000000!important;
 	}
 	.uir-tooltip .dropdownDiv > .dropdownSelected {
 		background: #565656 !important;
@@ -585,7 +585,7 @@
 		color: #a1c8ff!important;
 		background: inherit;
 	}
-	/*Global search results non-highlighted option color*/
+/*Global search results non-highlighted option color*/
 	ul#uir-global-search-container > li {
 		background: #000;
 	}
@@ -593,7 +593,7 @@
 		background: inherit;
 		color: #a1c8ff!important;
 	}
-	/*Global search results highlighted option color*/
+/*Global search results highlighted option color*/
 	ul#uir-global-search-container > li.ns-active {
 		background: #565656;
 	}
@@ -831,7 +831,7 @@
 		background-color: #464646!important;
 	}
 	.ns-portlet-icon-overflow {
-		/*filter: contrast(0%) brightness(1000%);*/
+	/*filter: contrast(0%) brightness(1000%);*/
 		background: url(/images/dashboard/portlet-menu_blue2.svg) no-repeat 50% 0;
 		width: 32px;
 		position: relative;
@@ -839,7 +839,7 @@
 		height: 28px;
 	}
 	.ns-portlet-icon-refresh {
-		/*filter: contrast(0%) brightness(1000%);*/
+	/*filter: contrast(0%) brightness(1000%);*/
 		background: url(/images/dashboard/portlet-refresh.svg) no-repeat center center !important;
 		position: relative;
 		margin: 0;
@@ -1031,52 +1031,50 @@
 		color: white;
 		background-color: #676767!important;
 	}
-	/*Removes shadow on email page drop-down button text*/
+/*Removes shadow on email page drop-down button text*/
 	.cke_combo_text {
 		text-shadow: 0 1px 0 rgba(255, 255, 255, 0);
 	}
-	/*New button image next to help on top toolbar*/
+/*New button image next to help on top toolbar*/
 	#ns-header-quick-menu .ns-icon {
 		filter: invert(1) hue-rotate(180deg);
 	}
-	/*Help icon on top toolbar*/
+/*Help icon on top toolbar*/
 	#ns_header .ns-help .ns-icon {
 		filter: invert(1) hue-rotate(180deg);
 	}
-	/*Feedback icon on top toolbar*/
+/*Feedback icon on top toolbar*/
 	#ns_header .ns-header-feedback .ns-icon {
 		filter: invert(1) hue-rotate(180deg);
 	}
-	/*Print button*/
+/*Print button*/
 	.button-print {
 		filter: invert(1) hue-rotate(180deg);
 	}
-	/*New button*/
+/*New button*/
 	.button-new {
 		filter: invert(1) hue-rotate(180deg);
 	}
-	/*Change color of text in light background billing addres when editing sales order*/
+/*Change color of text in light background billing addres when editing sales order*/
 	#billaddress {
 		color: black!important;
 	}
-	/*Portlet settings drop down box background*/
+/*Portlet settings drop down box background*/
 	.ns-quick-date-tooltip {
 		background-color: #000000;
-	}
-	/*In case anyone uses rolled view on transaction pages*/
+	}/*In case anyone uses rolled view on transaction pages*/
 	.unrollformsubtabheaderexpand a,
 	.unrollformsubtabheadercollapse a {
 		color: #ffffff !important;
-	}
-	/*Generic text color - appears on phone list page numbers*/
+	}/*Generic text color - appears on phone list page numbers*/
 	.medtextbold {
 		color: #FFF;
 	}
-	/*Generic text color - appears on phone list page numbers*/
+/*Generic text color - appears on phone list page numbers*/
 	.medtext {
 		color: #FFF;
 	}
-	/*Fix table text colors*/
+/*Fix table text colors*/
 	.uir-list-row-tr > td,
 	.uir-machine-row > td,
 	.uir-machine-totals-row > td {
@@ -1085,11 +1083,11 @@
 	.uir-list-row-tr > td {
 		color: #FFF!important;
 	}
-	/*Serials in SO for example*/
+/*Serials in SO for example*/
 	a:-webkit-any-link {
 		color: #fff;
 	}
-	/*Emails viewed in NS keep their dark text. This should overwrite that*/
+/*Emails viewed in NS keep their dark text. This should overwrite that*/
 	html,
 	body,
 	div,
@@ -1113,7 +1111,7 @@
 	th {
 		color: #FFF!important;
 	}
-	/*Calendar popup when editing transactions*/
+/*Calendar popup when editing transactions*/
 	.uir-popup-cal-header-row > td {
 		color: #ffffff;
 	}
@@ -1135,11 +1133,11 @@
 	.uir-popup-cal-nav > .iArrowRight {
 		filter: brightness(500%);
 	}
-	/*Color for "today" in calendar*/
+/*Color for "today" in calendar*/
 	td.uir-popup-cal-cell a.uir-popup-cal-cell-text b {
 		color: #5dd8ff;
 	}
-	/*Puts background on some emails when viewing in Netsuite so text is legible*/
+/*Puts background on some emails when viewing in Netsuite so text is legible*/
 	.WordSection1 {
 		background-color: #a4a4a4;
 	}
