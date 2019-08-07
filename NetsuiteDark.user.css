@@ -913,10 +913,6 @@
 	.ns-portlet-content[data-portlet-class='SearchResultPortlet'] .ns-search-result-container .listtable tbody tr.uir-list-row-tr.uir-active td {
 		background-color: #57585a !important;
 	}
-	.dashboard-refresh .ns-portlet-controls .ns-portlet-action-submenu > ul > li {
-		background-color: #000000;
-		color: #fff;
-	}
 	div.listheader > span.neg14050dir4 {
 		visibility: hidden
 	}
@@ -1151,5 +1147,13 @@
 /*Filter drop-down hover color*/
 .uir-pagination-select ul li a:hover {
     background: #666;
+	}
+/*Home screen portlet drop-down colors*/
+	.dashboard-refresh .ns-portlet-controls .ns-portlet-action-submenu > ul > li {
+		background-color: #000000;
+		color: #fff;
+	}
+	.dashboard-refresh .ns-portlet-controls .ns-portlet-action-submenu > ul > li:hover {
+    background-color: #565656;
 	}
 }
