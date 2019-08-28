@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Netsuite Dark Theme - Tierney
 @namespace      totallytrav
-@version        1.0.24
+@version        1.0.26
 @description    Custom Tierney Netsuite theme
 @author         Travis Olson
 @homepageURL	https://github.com/totallytrav/NetsuiteDark
@@ -1155,5 +1155,13 @@
 	}
 	.dashboard-refresh .ns-portlet-controls .ns-portlet-action-submenu > ul > li:hover {
     background-color: #565656;
+	}
+/*Next and back arrow hover text in searches*/
+	.uir-pagination-select-navig a span.content {
+    background: #000000;
+	}
+/*Billing address text color in transactions*/
+	#billaddress {
+	color: #fff!important;
 	}
 }
