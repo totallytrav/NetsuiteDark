@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Netsuite Dark Theme - Tierney
 @namespace      totallytrav
-@version        1.0.30
+@version        1.0.31
 @description    Custom Tierney Netsuite theme
 @author         Travis Olson
 @homepageURL	https://github.com/totallytrav/NetsuiteDark
@@ -1172,6 +1172,8 @@
 	#ns_navigation > .ns-menu > .ns-menuitem.ns-menuitem-selected.ns-active > a {
     color: #FFF !important;
 	}
-}
-	
+/*Drop-down background when editing transaction*/
+	.uir_popupSelectTooltipMenu a {
+    background-color: black;
+	}
 }
