@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Netsuite Dark Theme - Tierney
 @namespace      totallytrav
-@version        1.0.27
+@version        1.0.30
 @description    Custom Tierney Netsuite theme
 @author         Travis Olson
 @homepageURL	https://github.com/totallytrav/NetsuiteDark
@@ -1051,10 +1051,6 @@
 	.button-new {
 		filter: invert(1) hue-rotate(180deg);
 	}
-/*Change color of text in light background billing addres when editing sales order*/
-	#billaddress {
-		color: black!important;
-	}
 /*Portlet settings drop down box background*/
 	.ns-quick-date-tooltip {
 		background-color: #000000;
@@ -1164,4 +1160,18 @@
 	#billaddress {
 	color: #fff!important;
 	}
+/*Serial number text color in item fulfillment*/
+	.effectHover .textareainput, .effectHover .textareainputreq, .effectHover .textarea, .effectStatic .textareainput, .effectStatic .textareainputreq, .effectStatic .textarea {
+ 	    color: white!important;
+	}
+/*Visibility when clicking "more" on serial number list in transaction to open popup window*/
+	.listtext, .listtexthl, .xxlisttexthl, .listtexthlrt, .listtexthlctr, .listtextctr {
+    background: #000 !important;
+	}
+/*Visiblity of top bar text when hovering over selected tab*/
+	#ns_navigation > .ns-menu > .ns-menuitem.ns-menuitem-selected.ns-active > a {
+    color: #FFF !important;
+	}
+}
+	
 }
