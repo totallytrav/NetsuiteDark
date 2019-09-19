@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Netsuite Dark Theme - Tierney
 @namespace      totallytrav
-@version        1.0.31
+@version        1.0.32
 @description    Custom Tierney Netsuite theme
 @author         Travis Olson
 @homepageURL	https://github.com/totallytrav/NetsuiteDark
@@ -1166,7 +1166,7 @@
 	}
 /*Visibility when clicking "more" on serial number list in transaction to open popup window*/
 	.listtext, .listtexthl, .xxlisttexthl, .listtexthlrt, .listtexthlctr, .listtextctr {
-    background: #000 !important;
+    background: #000;
 	}
 /*Visiblity of top bar text when hovering over selected tab*/
 	#ns_navigation > .ns-menu > .ns-menuitem.ns-menuitem-selected.ns-active > a {
