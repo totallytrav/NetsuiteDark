@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Netsuite Dark Theme - Tierney
 @namespace      totallytrav
-@version        1.0.33
+@version        1.0.34
 @description    Custom Tierney Netsuite theme
 @author         Travis Olson
 @homepageURL	https://github.com/totallytrav/NetsuiteDark
@@ -207,7 +207,7 @@
 		color: #b5b5b5 !important;
 	}
 	#ns_navigation > .ns-menu > .ns-menuitem.ns-active > a {
-		color: white!important;
+		color: white;
 	}
 	.primary-color {
 		color: white;
@@ -1031,10 +1031,10 @@
 	.cke_combo_text {
 		text-shadow: 0 1px 0 rgba(255, 255, 255, 0);
 	}
-/*New button image next to help on top toolbar*/
+/*New button image next to help on top toolbar
 	#ns-header-quick-menu .ns-icon {
 		filter: invert(1) hue-rotate(180deg);
-	}
+	}*/
 /*Help icon on top toolbar*/
 	#ns_header .ns-help .ns-icon {
 		filter: invert(1) hue-rotate(180deg);
@@ -1054,11 +1054,13 @@
 /*Portlet settings drop down box background*/
 	.ns-quick-date-tooltip {
 		background-color: #000000;
-	}/*In case anyone uses rolled view on transaction pages*/
+	}
+/*In case anyone uses rolled view on transaction pages*/
 	.unrollformsubtabheaderexpand a,
 	.unrollformsubtabheadercollapse a {
 		color: #ffffff !important;
-	}/*Generic text color - appears on phone list page numbers*/
+	}
+/*Generic text color - appears on phone list page numbers*/
 	.medtextbold {
 		color: #FFF;
 	}
@@ -1079,7 +1081,7 @@
 	a:-webkit-any-link {
 		color: #fff;
 	}
-/*Emails viewed in NS keep their dark text. This should overwrite that*/
+/*Emails viewed in NS keep their dark text. This should overwrite that
 	html,
 	body,
 	div,
@@ -1101,8 +1103,8 @@
 	p,
 	blockquote,
 	th {
-		color: #FFF!important;
-	}
+		color: #FFF;
+	}*/
 /*Calendar popup when editing transactions*/
 	.uir-popup-cal-header-row > td {
 		color: #ffffff;
@@ -1176,4 +1178,31 @@
 	.uir_popupSelectTooltipMenu a {
     background-color: black;
 	}
+	
+/*New hover menu formatting for user role in top right*/
+	#ns_header .ns-quick-menu>.ns-header>a, #ns_header .ns-user>.ns-header>a {
+    background-color: #000000;
+    cursor: pointer;
+    height: 56px;
+    line-height: 56px;
+}
+	
+/*fixes primary toolbar text colors*/
+	#ns-header-menu-userrole .ns-menu .ns-menuitem > a, #ns-header-quick-menu .ns-menu .ns-menuitem > a, #ns_navigation .ns-menu .ns-menuitem > a {
+    color: #fff !important;
+}
+/*Fixes primary toolbar background colors*/
+	#ns-header-menu-userrole .ns-menu .ns-menuitem > a, #ns-header-quick-menu .ns-menu .ns-menuitem > a, #ns_navigation .ns-menu .ns-menuitem > a {
+    background-color: #444444;
+}
+
+/**/
+	#ns_header .ns-user .ns-role {
+    color: #ffffff;
+}
+	#ns-header-quick-menu > .ns-active, #ns-header-quick-menu > .ns-active > a, #ns_header .ns-help:hover, #ns_header .ns-help:focus, #ns_header .ns-user > .ns-active, #ns_header .ns-user > .ns-active > a {
+    background-color: #bbbbbb1f!important;
+}
+
+
 }
