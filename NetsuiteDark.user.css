@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Netsuite Dark Theme - Tierney
 @namespace      totallytrav
-@version        1.0.35
+@version        1.0.36
 @description    Custom Tierney Netsuite theme
 @author         Travis Olson
 @homepageURL	https://github.com/totallytrav/NetsuiteDark
@@ -740,19 +740,24 @@
 	#popup_outerdiv div.uir-filterArea {
 		background: #000 !important;
 	}
+	.uir-list-header-td {
+		padding: 6px 15px;
+		border-left: 0 !important;
+		border-bottom: 0 !important;
+	}
 	.uir-list-header-td,
 	.uir-machine-headerrow > td {
 		background: #000000 none !important;
 		text-transform: uppercase;
 		border-left: 0 !important;
 		border-bottom: 0 !important;
+		padding: 6px 15px !important;
 	}
 	.listheader,
 	.listheadertextb,
 	.listheadertextbrt,
 	.listheadertextbctr {
 		background: #000000 !important;
-		padding: 0 !important;
 		vertical-align: bottom;
 	}
 	.uir-machine-headerrow .listheadertextb,
@@ -884,7 +889,7 @@
 		color: #ffffff;
 	}
 	#ns_navigation > .ns-menu > .ns-menuitem.ns-active a.ns-menu-icon svg {
-		fill: #ffffff !important;
+		fill: #000 !important;
 	}
 	.nrp-content-wrapper .nrp-header-wrapper {
 		filter: brightness(60%);
@@ -1203,6 +1208,9 @@
 	#ns-header-quick-menu > .ns-active, #ns-header-quick-menu > .ns-active > a, #ns_header .ns-help:hover, #ns_header .ns-help:focus, #ns_header .ns-user > .ns-active, #ns_header .ns-user > .ns-active > a {
     background-color: #bbbbbb1f!important;
 }
-
+/*Fixes bad color match in some drop down windows*/
+	.uir-tooltip .dropdownDiv > .dropdownNotSelected {
+    color: #ffffff;
+	}
 
 }
