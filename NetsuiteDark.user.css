@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Netsuite Dark Theme - Tierney
 @namespace      totallytrav
-@version        1.0.36
+@version        1.0.37
 @description    Custom Tierney Netsuite theme
 @author         Travis Olson
 @homepageURL	https://github.com/totallytrav/NetsuiteDark
@@ -1212,5 +1212,10 @@
 	.uir-tooltip .dropdownDiv > .dropdownNotSelected {
     color: #ffffff;
 	}
+
+/*Fixes date text in case history view*/
+.portletTitleText {
+    color: white;
+}
 
 }
