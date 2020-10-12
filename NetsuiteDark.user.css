@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Netsuite Dark Theme - Tierney
 @namespace      totallytrav
-@version        1.0.38
+@version        1.0.39
 @description    Custom Tierney Netsuite theme
 @author         Travis Olson
 @homepageURL	https://github.com/totallytrav/NetsuiteDark
@@ -1144,6 +1144,13 @@
 	#messages_form > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td > div > span.uir-field.inputreadonly.uir-user-styled.uir-resizable > div:nth-child(1) > div > pre:nth-child(1) > pre > div font {
 		color: white
 	}
+/*Forces white text for many Zendesk emails when viewed in Communication tab*/
+	#messages_form > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td > div > span.uir-field.inputreadonly.uir-user-styled.uir-resizable > div {
+		color:white!important;
+	}
+	.zd-comment {
+		color: white!important;
+	}
 /*Filter drop-down background color*/
 	.uir-pagination-select ul li a {
     background: #000000;
@@ -1194,24 +1201,24 @@
     cursor: pointer;
     height: 56px;
     line-height: 56px;
-}
+	}
 	
 /*fixes primary toolbar text colors*/
 	#ns-header-menu-userrole .ns-menu .ns-menuitem > a, #ns-header-quick-menu .ns-menu .ns-menuitem > a, #ns_navigation .ns-menu .ns-menuitem > a {
     color: #fff !important;
-}
+	}
 /*Fixes primary toolbar background colors*/
 	#ns-header-menu-userrole .ns-menu .ns-menuitem > a, #ns-header-quick-menu .ns-menu .ns-menuitem > a, #ns_navigation .ns-menu .ns-menuitem > a {
     background-color: #444444;
-}
+	}
 
 /**/
 	#ns_header .ns-user .ns-role {
     color: #ffffff;
-}
+	}
 	#ns-header-quick-menu > .ns-active, #ns-header-quick-menu > .ns-active > a, #ns_header .ns-help:hover, #ns_header .ns-help:focus, #ns_header .ns-user > .ns-active, #ns_header .ns-user > .ns-active > a {
     background-color: #bbbbbb1f!important;
-}
+	}
 /*Fixes bad color match in some drop down windows*/
 	.uir-tooltip .dropdownDiv > .dropdownNotSelected {
     color: #ffffff;
@@ -1220,6 +1227,6 @@
 /*Fixes date text in case history view*/
 .portletTitleText {
     color: white;
-}
+	}
 
 }
