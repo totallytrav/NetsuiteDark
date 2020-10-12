@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Netsuite Dark Theme - Tierney
 @namespace      totallytrav
-@version        1.0.37
+@version        1.0.38
 @description    Custom Tierney Netsuite theme
 @author         Travis Olson
 @homepageURL	https://github.com/totallytrav/NetsuiteDark
@@ -1139,6 +1139,10 @@
 /*Puts background on some emails when viewing in Netsuite so text is legible*/
 	.WordSection1 {
 		background-color: #a4a4a4;
+	}
+/*Adds white text to more emails - IN TESTING*/
+	#messages_form > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td > div > span.uir-field.inputreadonly.uir-user-styled.uir-resizable > div:nth-child(1) > div > pre:nth-child(1) > pre > div font {
+		color: white
 	}
 /*Filter drop-down background color*/
 	.uir-pagination-select ul li a {
