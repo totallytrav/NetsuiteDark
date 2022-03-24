@@ -43,18 +43,6 @@
 		vertical-align: middle;
 		line-height: 0;
 	}
-
-	#ns_header .ns-logo img {
-		max-height: 30px;
-		max-width: 144px;
-		display: block;
-		-moz-box-sizing: border-box;
-		box-sizing: border-box;
-		background: url(https://i.imgur.com/K7CXFK6.png) no-repeat;
-		width: 130px;
-		height: 22px;
-		padding-left: 130px;
-	}
 	.ns-link-button {
 		color: #578ad2!important;
 	}
