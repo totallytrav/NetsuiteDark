@@ -1217,4 +1217,14 @@
     color: white;
 	}
 
+/*Font colors in Employee Center*/	
+.ns-ec-tile {
+    color: white;
 }
+
+/*Hidden menu options in Employee Center*/
+.ns-portlet-wrapper[data-portlet-type='tasklinks'] .ns-tasklink-modifiers-container {
+    visibility: visible;
+}
+
+/*END*/}
