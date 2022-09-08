@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Netsuite Dark Theme - Tierney
 @namespace      totallytrav
-@version        1.0.40
+@version        1.0.41
 @description    Custom Tierney Netsuite theme
 @author         Travis Olson
 @homepageURL	https://github.com/totallytrav/NetsuiteDark
@@ -25,20 +25,6 @@
 	#ns_header #devpgloadtime {
 		padding-right: 30px;
 	}
-
-	#ns_header #devpgloadtime img {
-		max-width: 229.156px;
-		filter: contrast(0%) brightness(1000%);
-		background-color: #ffffff00;
-		display: block;
-		-moz-box-sizing: border-box;
-		box-sizing: border-box;
-		background: url(https://system.na2.netsuite.com/images/logos/netsuite-oracle.svg) no-repeat;
-		width: 229.156px;
-		height: 29.984px;
-		padding-left: 229.156px;
-	}
-
 	#ns_header .ns-logo {
 		vertical-align: middle;
 		line-height: 0;
@@ -1226,5 +1212,24 @@
 .ns-portlet-wrapper[data-portlet-type='tasklinks'] .ns-tasklink-modifiers-container {
     visibility: visible;
 }
+/*Hide logo*/
+#ns_header .ns-logo img {
+    max-height: 30px;
+    max-width: 144px;
+    visibility: hidden;
+}
+/*Make sure real logo is not hidden*/
+#ns_header #devpgloadtime img {
+    max-width: 229.156px;
+    filter: contrast(0%) brightness(1000%);
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(https://system.na2.netsuite.com/images/logos/netsuite-oracle.svg) no-repeat;
+    width: 229.156px;
+    height: 29.984px;
+    padding-left: 229.156px;
+	visibility: visible
+}	
 
 /*END*/}
