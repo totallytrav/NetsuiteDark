@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Netsuite Dark Theme - Tierney
 @namespace      totallytrav
-@version        1.0.41
+@version        1.0.42
 @description    Custom Tierney Netsuite theme
 @author         Travis Olson
 @homepageURL	https://github.com/totallytrav/NetsuiteDark
@@ -1218,6 +1218,12 @@
     max-width: 144px;
     visibility: hidden;
 }
+/*Hide new logo*/
+.n-w-header__logos>[data-widget=Image]+[data-widget=Image] {
+    margin-left: var(--uif-refreshed-size-l);
+    visibility: hidden;
+}	
+	
 /*Make sure real logo is not hidden*/
 #ns_header #devpgloadtime img {
     max-width: 229.156px;
@@ -1231,5 +1237,53 @@
     padding-left: 229.156px;
 	visibility: visible
 }	
+/*Top bar recolor*/
+	.n-w-header__heading {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
+	margin: 0px;
+    background-color: rgb(0 0 0);
+}
 
+/* Toolbar fonts and fills*/
+.n-w-header__submenu .n-w-menu-item {
+	background-color: #696969;
+	fill: #fff;
+}
+	
+/* Toolbar fonts and fills*/
+.n-w-header__submenu .n-w-menu-item__content {
+	color: #FFF;
+	fill: #FFF;
+}
+	
+/* Toolbar fonts and fills*/	
+.n-w-header__menu-navigation.style-system-header [data-widget=MenuItem].n-w-menu-item--selected .n-w-menu-item__content.style-system-header {
+	color: #FFF;
+}
+
+/*Top-right button text colors*/	
+.uif287:not(.uif277).uif270.uif272, .uif287:not(.uif277).uif270.uif275, .uif287:not(.uif277).uif270.uif276, .uif287:not(.uif277).uif270.uif274 {
+    color: rgb(150, 150, 150);
+}
+
+/*Create new button color*/	
+.n-w-menu-item-content .n-w-menu-item-content__icon {
+    filter: brightness(150%);
+}	
+
+/*Help+Feedback button color*/	
+.uif281 {
+		filter: brightness(150%);
+}	
+/*Profile box text*/
+.n-w-header__menu-role [data-widget=Link] {
+	color: rgb(150, 150, 150); 
+}
+	
+	
+	
 /*END*/}
