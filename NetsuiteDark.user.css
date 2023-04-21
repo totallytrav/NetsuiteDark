@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Netsuite Dark Theme - Tierney
 @namespace      totallytrav
-@version        1.0.43
+@version        1.0.44
 @description    Custom Tierney Netsuite theme
 @author         Travis Olson
 @homepageURL	https://github.com/totallytrav/NetsuiteDark
@@ -1297,5 +1297,23 @@
 input[type="text"]:not([data-widget="TextInput"]), input[type="password"], select, textarea {
     color: #ffffff;
 }	
+
+/*Employee center toolbar color*/	
+	.uif331 {
+    	background: #696969
+}
+/*Employee center home button color*/	
+	.n-w-header__menu-navigation.style-system-header [data-widget=MenuItem].style-selection-active {
+    	background-color: #424242;
+}
+/*Employee center help/feedback buttons*/	
+	.uif265 {
+			filter: brightness(150%);
+	}
+/*Employee Center help/feedback text*/	
+	.uif260 {
+			color: #fff;
+	}
+	
 	
 /*END*/}
