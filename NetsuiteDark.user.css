@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Netsuite Dark Theme - Tierney
 @namespace      totallytrav
-@version        1.0.42
+@version        1.0.43
 @description    Custom Tierney Netsuite theme
 @author         Travis Olson
 @homepageURL	https://github.com/totallytrav/NetsuiteDark
@@ -1283,7 +1283,15 @@
 .n-w-header__menu-role [data-widget=Link] {
 	color: rgb(150, 150, 150); 
 }
-	
+/*Fixes some table menu drop downs*/
+.menuInnerTable {
+    background: #000000;
+    position: relative;
+}
+/*Fixes some table menu drop downs*/
+.menuInnerTable td.ddmTextOver {
+    background-color: #696969;
+}		
 	
 	
 /*END*/}
