@@ -1291,7 +1291,11 @@
 /*Fixes some table menu drop downs*/
 .menuInnerTable td.ddmTextOver {
     background-color: #696969;
-}		
-	
+}
+
+/*Expense report text boxes*/
+input[type="text"]:not([data-widget="TextInput"]), input[type="password"], select, textarea {
+    color: #ffffff;
+}	
 	
 /*END*/}
