@@ -585,6 +585,9 @@
 		background: inherit;
 		color: white!important;
 	}
+	td.fgroup_title:not(.uir-page-search__highlight--secondary) {
+    background: none repeat scroll 0 0 #696969 !important;
+	}
 	td.fgroup_title {
 		background: none repeat scroll 0 0 #666666 !important;
 	}
@@ -750,7 +753,7 @@
 		background-color: #fff;
 		font-size: 13px;
 		border: 1px solid #cccccc !important;
-		/*padding: 3px;*/
+		/*padding: 0px*/;
 	}
 	.uir-select-input-container > .inputreq.rtpadding {
 		color: #FFFFFF !important;
@@ -1278,10 +1281,14 @@
 /*Help+Feedback button color*/	
 .uif281 {
 		filter: brightness(150%);
+}
+.uif602:not(.uif592).uif585.uif587, .uif602:not(.uif592).uif585.uif590, .uif602:not(.uif592).uif585.uif591, .uif602:not(.uif592).uif585.uif589 {
+    color: rgb(255 255 255);
+    fill: rgb(151, 151, 151);
 }	
 /*Profile box text*/
 .n-w-header__menu-role [data-widget=Link] {
-	color: rgb(150, 150, 150); 
+	color: rgb(200, 200, 200); 
 }
 /*Fixes some table menu drop downs*/
 .menuInnerTable {
@@ -1308,12 +1315,17 @@ input[type="text"]:not([data-widget="TextInput"]), input[type="password"], selec
 }
 /*Employee center help/feedback buttons*/	
 	.uif265 {
-			filter: brightness(150%);
+			filter: brightness(100%);
 	}
 /*Employee Center help/feedback text*/	
 	.uif260 {
 			color: #fff;
-	}
-	
+}
+	.n-w-header__menu-role [data-widget=MenuItem].style-system-header.n-w-menu-item--selected, .n-w-header__menu-quick-link [data-widget=MenuItem].style-system-header.n-w-menu-item--selected {
+    background-color: #696969 !important;
+}
+	.n-w-header__controls [data-widget=Button]:hover::before {
+    background-color: #696969 !important;
+}
 	
 /*END*/}
