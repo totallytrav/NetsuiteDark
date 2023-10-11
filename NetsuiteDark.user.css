@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Netsuite Dark Theme - Tierney
 @namespace      totallytrav
-@version        1.0.44
+@version        1.0.45
 @description    Custom Tierney Netsuite theme
 @author         Travis Olson
 @homepageURL	https://github.com/totallytrav/NetsuiteDark
@@ -746,11 +746,11 @@
 	input[type="text"],
 	select,
 	textarea {
-		color: #fff;
-		background-color: #000;
+		/*color: #fff;*/
+		background-color: #fff;
 		font-size: 13px;
 		border: 1px solid #cccccc !important;
-		padding: 3px;
+		/*padding: 3px;*/
 	}
 	.uir-select-input-container > .inputreq.rtpadding {
 		color: #FFFFFF !important;
